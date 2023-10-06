@@ -1,4 +1,4 @@
-#import streamlit
+import streamlit
 import pandas
 
 streamlit.header('Breakfast Menu')
