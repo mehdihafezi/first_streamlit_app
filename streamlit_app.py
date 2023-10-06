@@ -1,5 +1,13 @@
-import streamlit
+import streamlit As st
 
-streamlit.title('My Parents New Healthy Diner')
-streamlit.text(' My Breakfast menu : Omega 3 & Blueberry Oatmeal Kale, Spinach & Rocket Smoothie Hard-Boiled free-Range Egge')
+st.title('My Parents New Healthy Diner')
+st.header('My Breakfast menu')
 
+st.slider("", 0, 100, (25, 75))
+st.divider()  # 
+st.write('Omega 3 & Blueberry Oatmeal')
+st.divider()  # 
+st.write('Kale, Spinach & Rocket Smoothie')
+st.divider()  # 
+st.text('Hard-Boiled free-Range Egge')
+st.divider()  # 
